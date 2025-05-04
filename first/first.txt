@@ -1,0 +1,10 @@
+Rule: S->AB
+Rule: A->aA
+Rule: A->e
+Rule: B->b
+Rule: done
+
+FIRST Sets:
+FIRST(A) = { a, ε }
+FIRST(B) = { b }
+FIRST(S) = { a, b }
